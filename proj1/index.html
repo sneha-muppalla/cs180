@@ -202,6 +202,20 @@
         white-space: nowrap;
       }
 
+      .source-link {
+        display: inline-block;
+        margin: 12px 5px 0;
+        color: var(--dark);
+        font-size: .78rem;
+        font-weight: 700;
+        text-decoration-thickness: 1px;
+        text-underline-offset: 3px;
+      }
+
+      .source-link:hover {
+        color: var(--accent);
+      }
+
       .note {
         max-width: 780px;
         margin: 48px 0 0 auto;
@@ -542,7 +556,7 @@
           <h2>Additional collection examples</h2>
           <p class="intro">
             <span class="kicker">Three images of my choosing</span>
-            Add the source links and a brief reason for choosing each Prokudin-Gorskii image.
+            Three additional glass-plate scans from the Library of Congress collection, with links to their source records.
           </p>
         </div>
         <div class="image-grid">
@@ -556,6 +570,7 @@
                 Red offset: (75, -9)
               </span>
             </figcaption>
+            <a class="source-link" href="https://www.loc.gov/item/2018679063/">View Library of Congress source ↗</a>
           </figure>
           <figure class="image-card">
             <img src="output_images/choice2_woman_Green offset:(38, 21)Red offset:(76, 35).jpg" alt="Colorized result for Woman" loading="lazy">
@@ -567,6 +582,7 @@
                 Red offset: (76, 35)
               </span>
             </figcaption>
+            <a class="source-link" href="https://www.loc.gov/item/2018679071/">View Library of Congress source ↗</a>
           </figure>
           <figure class="image-card">
             <img src="output_images/choice3_sacks_Green offset:(54, 26)Red offset:(122, 14).jpg" alt="Colorized result for Sacks" loading="lazy">
@@ -578,6 +594,7 @@
                 Red offset: (122, 14)
               </span>
             </figcaption>
+            <a class="source-link" href="https://www.loc.gov/item/2018681258/">View Library of Congress source ↗</a>
           </figure>
         </div>
       </section>
@@ -608,11 +625,7 @@
           </p>
           <p>
             <strong>Failed alignments:</strong>
-            Identify any results that still look misaligned and briefly explain why.
-          </p>
-          <p>
-            <strong>Bells and whistles:</strong>
-            Describe each improvement you implemented. Add before-and-after figures here when available.
+            Emir is the only result that remains visibly misaligned. Its red, green, and blue exposures have noticeably different brightness patterns, so a raw-pixel L2 score can favor a shift that matches intensity values rather than corresponding scene features. This makes Emir harder for my current alignment method than the other scans.
           </p>
         </div>
       </section>
