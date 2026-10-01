@@ -49,7 +49,7 @@ def sharpen_image(img, filter_size, sigma, alpha):
     return blurred, high_freq, sharpened
 
     
-
+# i had to search this online because for some reason the images i selected would like rotate idk why
 img = ImageOps.exif_transpose(Image.open('chair.jpg'))
 img_array = np.array(img.convert('RGB'), dtype=np.float32) / 255.0
 
@@ -90,7 +90,6 @@ blur_filter = gaussian_1d @ gaussian_1d.T
 blurred = apply_filter(sharpened, blur_filter)
 plt.imsave('car_sharpened_then_blurred.png', np.clip(blurred, 0, 1))
 
-# Resharpen the blurred image.
 _, _, resharpened = sharpen_image(
     blurred, filter_size=15, sigma=3, alpha=1
 )

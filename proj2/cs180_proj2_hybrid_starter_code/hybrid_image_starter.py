@@ -1,5 +1,5 @@
 import matplotlib.pyplot as plt
-from align_image_code import align_images
+from proj2.align_image_code import align_images
 import numpy as np
 import cv2
 
