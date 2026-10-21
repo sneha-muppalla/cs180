@@ -1,0 +1,16 @@
+{
+  "group": "all",
+  "seed": 180,
+  "step_size": 0.02,
+  "cfg_w": 7,
+  "model": "MCG-NJU/PixNerd-XXL-P16-T2I",
+  "revision": "9fa8836b553976b88a3b27649ed1628499e02bf9",
+  "text_revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+  "gpu": "Tesla T4",
+  "visible_devices": null,
+  "torch": "2.11.0+cu130",
+  "own_image_path": "/content/drive/MyDrive/lin_mm.png",
+  "rotation_involution_check": true,
+  "hybrid_lowpass_sigma": 16,
+  "peak_memory_gib": 11.439131736755371
+}

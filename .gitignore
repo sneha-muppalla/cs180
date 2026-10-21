@@ -1,0 +1,7 @@
+
+# Local Python environments and generated caches
+.DS_Store
+.venv*/
+__pycache__/
+*.py[cod]
+.cache/
