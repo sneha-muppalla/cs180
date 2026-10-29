@@ -1,0 +1,41 @@
+{
+  "source": "set2_3",
+  "source_points": [
+    [
+      132.0,
+      771.6
+    ],
+    [
+      424.8,
+      753.6
+    ],
+    [
+      424.8,
+      940.8
+    ],
+    [
+      138.0,
+      974.4
+    ]
+  ],
+  "reference_points": [
+    [
+      0,
+      0
+    ],
+    [
+      599,
+      0
+    ],
+    [
+      599,
+      399
+    ],
+    [
+      0,
+      399
+    ]
+  ],
+  "max_side": 1200,
+  "selection_method": "Manually identified corners; target aspect ratio approximate"
+}
