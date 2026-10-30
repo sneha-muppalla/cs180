@@ -1,5 +1,0 @@
-numpy
-Pillow
-matplotlib
-# Only needed by generate_results.py for feature proposal/outlier filtering:
-opencv-python
