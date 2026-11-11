@@ -1,0 +1,27 @@
+proj4/index.html
+  s_5bd3e850538fbc::t_4cb4e89b4df303 71
+proj4/partb/part4b.py
+  h_0fa3f56b6a5150 46-47,51,53,57,60,62,69,83,88,91-92,94,96,104,109-110,113,118,126,132,138,159,180,218
+  h_0fa3f56b6a5150 99,111,128
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "4cb4cc450628e494571ce835c1898a4cc1e6acfd",
+  "prompts": {},
+  "humans": {
+    "h_0fa3f56b6a5150": {
+      "author": "Flying010 <snehamuppalla@gmail.com>"
+    }
+  },
+  "sessions": {
+    "s_5bd3e850538fbc": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a185b2-e535-7581-847c-be7ff39ad968",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "Flying010 <snehamuppalla@gmail.com>"
+    }
+  }
+}
